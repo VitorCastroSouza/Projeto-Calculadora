@@ -1,0 +1,30 @@
+*{}
+#conteiner{
+    margin: auto;
+    display: flex;
+    width: 255px;
+    background-color: gray;
+    height: 425px;
+    flex-direction: column;
+    }
+
+#tela{
+    width: 247px;
+}
+
+.colunas{
+    display: flex;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.tecla{
+    border: 1px solid black;
+    margin: 1px;
+    height: 60px;
+    width: 60px;
+    padding-top: 40px;
+    color: red;
+}
