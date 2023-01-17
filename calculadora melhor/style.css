@@ -1,15 +1,22 @@
-*{}
+body{
+    background-image: linear-gradient(to right, darkgrey, rgb(0, 0, 0));
+}
+
 #conteiner{
     margin: auto;
+    margin-top: 50px;
     display: flex;
     width: 255px;
-    background-color: gray;
-    height: 425px;
+    background-color: red;
+    height: 440px;
     flex-direction: column;
     }
 
 #tela{
     width: 247px;
+    height: 30px;
+    font-size: 25px;
+    text-align: right;
 }
 
 .colunas{
@@ -26,5 +33,9 @@
     height: 60px;
     width: 60px;
     padding-top: 40px;
-    color: red;
+    color: white;
+}
+.tecla:hover{
+    background-color: blue;
+    cursor: pointer;
 }
