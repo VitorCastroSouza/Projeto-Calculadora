@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>CALCULADORA</h1>
     <div id="conteiner">
         <div>
             <input type="text" name="" id="tela">
@@ -16,7 +17,7 @@
             <span id="sete" class="tecla" onclick="mostrar('7')">7</span>
             <span id="oito" class="tecla" onclick="mostrar ('8')">8</span>
             <span id="nove" class="tecla" onclick="mostrar('9')">9</span>
-            <span id="limpar" class="tecla">C</span>
+            <span id="limpar" class="tecla" onclick="limpar()">C</span>
         </div>
         <div class="colunas">
             <span id="quatro" class="tecla" onclick="mostrar('4')">4</span>
@@ -32,9 +33,9 @@
         </div>
         <div class="colunas">
             <span id="zero" class="tecla" onclick="mostrar ('0')">0</span>
-            <span id="soma" class="tecla" onclick="mostrar('+')">+</span>
+            <span id="soma" class="tecla" onclick="soma()">+</span>
             <span id="subtracao" class="tecla" onclick="mostrar('-')">-</span>
-            <span id="igual" class="tecla">=</span>
+            <span id="igual" class="tecla" onclick="resul()">=</span>
         </div>
     </div>
     <script src="script.js"></script>

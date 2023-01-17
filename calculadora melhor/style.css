@@ -2,6 +2,12 @@ body{
     background-image: linear-gradient(to right, darkgrey, rgb(0, 0, 0));
 }
 
+h1{
+margin-left: 550px;
+color: white;
+text-shadow: 2px 2px 1px black;
+}
+
 #conteiner{
     margin: auto;
     margin-top: 50px;
