@@ -19,6 +19,7 @@ function soma(){
     if(pv==0){
         pv = botao.value
         botao.value = ""
+        operacao = 1
 } else{
     sv = botao.value
     n1int = parseInt(pv)
@@ -26,10 +27,19 @@ function soma(){
     resultado = n1int + n2int
     pv = resultado
     botao.value = ""
+    operacao = 1
     
 }
 }
 
 function resul(){
+    if(operacao==1){
+        sv = 0
+        n1int = parseInt(pv)
+        restxt = botao.value
+        resint = parseInt(restxt)
+        resultado = n1int + resint
+        pv = resultado
+    }
     botao.value = resultado
 }
