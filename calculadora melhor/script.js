@@ -4,6 +4,44 @@ let sv
 let operacao
 let resultado
 
+function conferir(){
+    if(operacao==1){
+        sv = 0
+        n1int = parseInt(pv)
+        restxt = botao.value
+        resint = parseInt(restxt)
+        resultado = n1int + resint
+        pv = resultado
+    }
+
+    if(operacao==2){
+        sv = 0
+        n1int = parseInt(pv)
+        restxt = botao.value
+        resint = parseInt(restxt)
+        resultado = n1int - resint
+        pv = resultado
+    }
+
+    if(operacao==3){
+        sv = 0
+        n1int = parseInt(pv)
+        restxt = botao.value
+        resint = parseInt(restxt)
+        resultado = n1int * resint
+        pv = resultado
+    }
+
+    if(operacao==4){
+        sv = 0
+        n1int = parseInt(pv)
+        restxt = botao.value
+        resint = parseInt(restxt)
+        resultado = n1int / resint
+        pv = resultado
+    }
+}
+
 function mostrar(digito){
     botao.value += digito
 }
@@ -23,45 +61,10 @@ function soma(){
         botao.value = ""
         operacao = 1
 } else{
-    if(operacao==1){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int + resint
-        pv = resultado
-    }
-
-    if(operacao==2){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int - resint
-        pv = resultado
-    }
-
-    if(operacao==3){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int * resint
-        pv = resultado
-    }
-
-    if(operacao==4){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int / resint
-        pv = resultado
-    }
+    conferir()
     botao.value = ""
     operacao = 1
-    
-}
+    }
 }
 
 function subtracao(){
@@ -70,45 +73,10 @@ function subtracao(){
         botao.value = ""
         operacao = 2
 } else{
-    if(operacao==1){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int + resint
-        pv = resultado
-    }
-
-    if(operacao==2){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int - resint
-        pv = resultado
-    }
-
-    if(operacao==3){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int * resint
-        pv = resultado
-    }
-
-    if(operacao==4){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int / resint
-        pv = resultado
-    }
+    conferir()
     botao.value = ""
     operacao = 2
-    
-}
+    }
 }
 
 function multiplicacao(){
@@ -117,45 +85,10 @@ function multiplicacao(){
         botao.value = ""
         operacao = 3
 } else{
-    if(operacao==1){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int + resint
-        pv = resultado
-    }
-
-    if(operacao==2){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int - resint
-        pv = resultado
-    }
-
-    if(operacao==3){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int * resint
-        pv = resultado
-    }
-
-    if(operacao==4){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int / resint
-        pv = resultado
-    }
+    conferir()
     botao.value = ""
     operacao = 3
-    
-}
+    }
 }
 
 function divisao(){
@@ -163,85 +96,15 @@ function divisao(){
         pv = botao.value
         botao.value = ""
         operacao = 4
-} else{
-    if(operacao==1){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int + resint
-        pv = resultado
-    }
-
-    if(operacao==2){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int - resint
-        pv = resultado
-    }
-
-    if(operacao==3){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int * resint
-        pv = resultado
-    }
-
-    if(operacao==4){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int / resint
-        pv = resultado
-    }
+    
+     } else{ conferir()
     botao.value = ""
     operacao = 4
-    
-}
+    }
 }
 
 
 function resul(){
-    if(operacao==1){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int + resint
-        pv = resultado
-    }
-
-    if(operacao==2){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int - resint
-        pv = resultado
-    }
-
-    if(operacao==3){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int * resint
-        pv = resultado
-    }
-
-    if(operacao==4){
-        sv = 0
-        n1int = parseInt(pv)
-        restxt = botao.value
-        resint = parseInt(restxt)
-        resultado = n1int / resint
-        pv = resultado
-    }
-
+    conferir()
     botao.value = resultado
 }
