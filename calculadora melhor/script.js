@@ -16,6 +16,8 @@ function limpar(){
 }
 
 function soma(){
+
+
     if(pv==0){
         pv = botao.value
         botao.value = ""

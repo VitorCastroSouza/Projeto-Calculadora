@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to right, darkgrey, rgb(0, 0, 0));
+    background-image: linear-gradient(to right, blue, white);
 }
 
 h1{
@@ -13,7 +13,7 @@ text-shadow: 2px 2px 1px black;
     margin-top: 50px;
     display: flex;
     width: 255px;
-    background-color: red;
+    background-color: rgb(15, 15, 218);
     height: 440px;
     flex-direction: column;
     }
@@ -40,8 +40,9 @@ text-shadow: 2px 2px 1px black;
     width: 60px;
     padding-top: 40px;
     color: white;
+    border-radius: 10px;
 }
 .tecla:hover{
-    background-color: blue;
+    background-color: black;
     cursor: pointer;
 }
