@@ -3,9 +3,10 @@ body{
 }
 
 h1{
-margin-left: 550px;
+margin: auto;
 color: white;
 text-shadow: 2px 2px 1px black;
+text-align: center;
 }
 
 #conteiner{
