@@ -4,25 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculadora</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-</head>
 <body>
-    <h1>Calculadora</h1>
-    <h2>primeiro numero</h2>
-    <input type="number" name="" id="n1">
-    <br>
-    <h2>segundo numero</h2>
-    <input type="number" name="" id="n2">
-    <input onclick="soma()" type="button" value="+">
-    <input type="button" value="-">
-    <input type="button" value="X">
-    <input type="button" value="%">
-    <br>
-    <br>
-    <p>o resultado é : <span id="res"></span></p> 
-
+    <h1>CALCULADORA</h1>
+    <div id="conteiner">
+        <div>
+            <input type="text" name="" id="tela">
+        </div>
+        <div class="colunas">
+            <span id="sete" class="tecla" onclick="mostrar('7')">7</span>
+            <span id="oito" class="tecla" onclick="mostrar ('8')">8</span>
+            <span id="nove" class="tecla" onclick="mostrar('9')">9</span>
+            <span id="limpar" class="tecla" onclick="limpar()">C</span>
+        </div>
+        <div class="colunas">
+            <span id="quatro" class="tecla" onclick="mostrar('4')">4</span>
+            <span id="cinco" class="tecla" onclick="mostrar('5')">5</span>
+            <span id="seis" class="tecla" onclick="mostrar('6')">6</span>
+            <span id="divisao" class="tecla" onclick="divisao()">%</span>
+        </div>
+        <div class="colunas">
+            <span id="um" class="tecla" onclick="mostrar('1')">1</span>
+            <span id="dois" class="tecla" onclick="mostrar('2')">2</span>
+            <span id="tres" class="tecla" onclick="mostrar('3')">3</span>
+            <span id="multiplicar" class="tecla" onclick="multiplicacao()">X</span>
+        </div>
+        <div class="colunas">
+            <span id="zero" class="tecla" onclick="mostrar ('0')">0</span>
+            <span id="soma" class="tecla" onclick="soma()">+</span>
+            <span id="subtracao" class="tecla" onclick="subtracao()">-</span>
+            <span id="igual" class="tecla" onclick="resul()">=</span>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
