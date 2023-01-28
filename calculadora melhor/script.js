@@ -107,4 +107,5 @@ function divisao(){
 function resul(){
     conferir()
     botao.value = resultado
+    operacao = 0
 }
